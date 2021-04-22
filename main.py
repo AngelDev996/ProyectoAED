@@ -10,5 +10,3 @@ importar.url = input()
 
 importar.obtener_html()
 importar.imprimir_html()
-
-
