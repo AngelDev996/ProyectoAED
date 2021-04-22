@@ -15,6 +15,6 @@ codigoFuente = " "
 codigoFuente = str(importar.get_source_code())
 # print(type(codigoFuente))
 
-archivo = open("testing", "a")
+archivo = open("testing", "w")
 archivo.write(codigoFuente)
 archivo.close()
