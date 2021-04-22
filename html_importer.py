@@ -1,6 +1,6 @@
 import urllib.request
 
-#Clase que se encarga con obtener el codigo fuente de un witio web
+#Clase que se encarga con obtener el codigo fuente de un sitio web
 class Html_import:
 
     def __init__(self): #Metodo init que inicializa la variable "url" que es la que usaremos para obtener la pagina web
