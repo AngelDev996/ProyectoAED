@@ -1,3 +1,4 @@
+
 import urllib.request
 
 #Clase que se encarga con obtener el codigo fuente de un sitio web
@@ -12,3 +13,9 @@ class Html_import:
     
     def imprimir_html(self): #Metodo que imprime el codigo fuente de la pagina solicitada
         print(self.data)
+
+    def get_source_code(self):
+        prueba = " "
+        prueba = self.data
+        return prueba
+    
